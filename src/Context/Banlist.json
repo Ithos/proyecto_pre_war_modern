@@ -1,0 +1,191 @@
+{
+    "banlist": 
+    [
+        {
+            "name": "Ancient Den",
+            "href": "https://scryfall.com/card/mrd/278/ancient-den?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/c/c/cc857fbd-8e0f-4bff-8f14-561c9925c484.jpg?1562158224",
+            "multiverseid": "46063"
+        },
+        {
+            "name": "Chrome Mox",
+            "href": "https://scryfall.com/card/mrd/152/chrome-mox?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/6/a/6a058e68-70af-4a64-859c-c881e5578368.jpg?1562146487",
+            "multiverseid": "47446"
+        },
+        {
+            "name": "Dark Depths",
+            "href": "https://scryfall.com/card/csp/145/dark-depths?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/9/2/92409c3a-fb1a-4205-9fe1-0f5affc7b21d.jpg?1593275643",
+            "multiverseid": "121155"
+        },
+        {
+            "name": "Dread Return",
+            "href": "https://scryfall.com/card/tsp/104/dread-return?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/d/7/d7e304fc-0ace-459e-8d2f-376f1899639c.jpg?1562940668",
+            "multiverseid": "116721"
+        },
+        {
+            "name": "Glimpse of Nature",
+            "href": "https://scryfall.com/card/chk/210/glimpse-of-nature?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/1/d/1ddcd76b-a7a1-4ae6-bf4a-f929c6574bdc.jpg?1562757977",
+            "multiverseid": "75241"
+        },
+        {
+            "name": "Golgari Grave-Troll",
+            "href": "https://scryfall.com/card/rav/167/golgari-grave-troll?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/f/6/f61b50e6-2166-435d-bf48-c4a0cff9999c.jpg?1598916310",
+            "multiverseid": "88960"
+        },
+        {
+            "name": "Great Furnace",
+            "href": "https://scryfall.com/card/mrd/282/great-furnace?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/2/8/2877281d-c85d-4f32-b40d-828b93c4ee8e.jpg?1562138784",
+            "multiverseid": "46066"
+        },
+        {
+            "name": "Hypergenesis",
+            "href": "https://scryfall.com/card/tsp/201/hypergenesis?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/d/a/da4d6969-e579-4b28-a76b-5a99c7488f15.jpg?1562941099",
+            "multiverseid": "113533"
+        },
+        {
+            "name": "Mental Misstep",
+            "href": "https://scryfall.com/card/nph/38/mental-misstep?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/6/1/61e9c6df-1c84-4eab-9076-a4feb6347c10.jpg?1566819829",
+            "multiverseid": "230066"
+        },
+        {
+            "name": "Seat of the Synod",
+            "href": "https://scryfall.com/card/mrd/283/seat-of-the-synod?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/5/d/5da5587d-6b6c-4645-8cc9-2866d1e6911b.jpg?1562145028",
+            "multiverseid": "46064"
+        },
+        {
+            "name": "Sensei's Divining Top",
+            "href": "https://scryfall.com/card/chk/268/senseis-divining-top?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/4/a/4a08ca06-58db-4ce6-b490-be4bea8956a1.jpg?1562759858",
+            "multiverseid": "50400"
+        },
+        {
+            "name": "Skullclamp",
+            "href": "https://scryfall.com/card/dst/140/skullclamp?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/5/5/55318397-de3c-47ea-a088-72a24df5c8fa.jpg?1562636939",
+            "multiverseid": "48197"
+        },
+        {
+            "name": "Tree of Tales",
+            "href": "https://scryfall.com/card/mrd/285/tree-of-tales?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/9/4/94db07aa-43d3-41b5-924e-60f1756b9c69.jpg?1562151494",
+            "multiverseid": "46067"
+        },
+        {
+            "name": "Umezawa's Jitte",
+            "href": "https://scryfall.com/card/bok/163/umezawas-jitte?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/3/b/3b6e5956-f795-451b-bb24-56462d1ced27.jpg?1562876528",
+            "multiverseid": "81979"
+        },
+        {
+            "name": "Vault of Whispers",
+            "href": "https://scryfall.com/card/mrd/286/vault-of-whispers?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/7/3/73866487-33f4-4f64-b100-2c4ddadcd74e.jpg?1562147867",
+            "multiverseid": "46065"
+        },
+        {
+            "name": "Blazing Shoal",
+            "href": "https://scryfall.com/card/bok/96/blazing-shoal?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/8/b/8b915daa-d239-4460-bd6b-e1327fdf7f51.jpg?1562878306",
+            "multiverseid": "74441"
+        },
+        {
+            "name": "Cloudpost",
+            "href": "https://scryfall.com/card/mrd/280/cloudpost?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/2/f/2f28ecdc-a4f0-4327-a78c-340be41555ee.jpg?1562139726",
+            "multiverseid": "49050"
+        },
+        {
+            "name": "Green Sun's Zenith",
+            "href": "https://scryfall.com/card/mbs/81/green-suns-zenith?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/0/2/02335747-54e3-4827-ae19-4e362863da9b.jpg?1562609284",
+            "multiverseid": "221559"
+        },
+        {
+            "name": "Ponder",
+            "href": "https://scryfall.com/card/lrw/79/ponder?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/b/a/ba6b6fc5-5077-4812-b8e9-906783dbaf67.jpg?1562365100",
+            "multiverseid": "139512"
+        },
+        {
+            "name": "Preordain",
+            "href": "https://scryfall.com/card/m11/70/preordain?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/e/3/e3868c3d-4fcd-444b-866f-0f8e50ce7b67.jpg?1562479014",
+            "multiverseid": "205019"
+        },
+        {
+            "name": "Rite of Flame",
+            "href": "https://scryfall.com/card/csp/96/rite-of-flame?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/c/0/c062caf7-f0eb-44db-9f74-e6711a13fada.jpg?1593275318",
+            "multiverseid": "121217"
+        },
+        {
+            "name": "Punishing Fire",
+            "href": "https://scryfall.com/card/zen/142/punishing-fire?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/5/6/56e76f1c-5a07-455a-a3df-4c45b5b25b82.jpg?1562612350",
+            "multiverseid": "192217"
+        },
+        {
+            "name": "Seething Song",
+            "href": "https://scryfall.com/card/mrd/104/seething-song?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/9/2/9213d580-7953-455f-abbe-99d3db2705cf.jpg?1562151029",
+            "multiverseid": "34945"
+        },
+        {
+            "name": "Second Sunrise",
+            "href": "https://scryfall.com/card/mrd/20/second-sunrise?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/4/e/4e50ee7c-f2a2-4d49-a1cc-8233fd8dd0c5.jpg?1562143349",
+            "multiverseid": "49009"
+        },
+        {
+            "name": "Deathrite Shaman",
+            "href": "https://scryfall.com/card/rtr/213/deathrite-shaman?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/7/0/70496f16-c4c0-4c03-beef-454eb4824cd1.jpg?1562788028",
+            "multiverseid": "290529"
+        },
+        {
+            "name": "Dig Through Time",
+            "href": "https://scryfall.com/card/ktk/36/dig-through-time?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/5/c/5c18c2d8-995c-4736-bdef-464abcd1d31a.jpg?1562787144",
+            "multiverseid": "386518"
+        },
+        {
+            "name": "Treasure Cruise",
+            "href": "https://scryfall.com/card/ktk/59/treasure-cruise?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/7/a/7a59d4b1-6cf4-44ec-8a96-1bb7094fea21.jpg?1562788963",
+            "multiverseid": "386705"
+        },
+        {
+            "name": "Summer Bloom",
+            "href": "https://scryfall.com/card/9ed/273/summer-bloom?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/c/e/ce7ed9d7-012c-43d0-a8c0-e208b58cad6f.jpg?1562741879",
+            "multiverseid": "84694"
+        },
+        {
+            "name": "Eye of Ugin",
+            "href": "https://scryfall.com/card/wwk/136/eye-of-ugin?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/c/3/c3b21941-1b7d-4fde-8b1d-7edbd5e5b796.jpg?1562295498",
+            "multiverseid": "197881"
+        },
+        {
+            "name": "Gitaxian Probe",
+            "href": "https://scryfall.com/card/nph/35/gitaxian-probe?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/9/9/995486ce-58bb-4753-a812-0ca73ef1a235.jpg?1562880052",
+            "multiverseid": "233056"
+        },
+        {
+            "name": "Krark-Clan Ironworks",
+            "href": "https://scryfall.com/card/5dn/134/krark-clan-ironworks?utm_source=api",
+            "imageUrl": "https://cards.scryfall.io/normal/front/c/6/c60174d6-1f9d-4870-b3db-34d6fcb3f6ab.jpg?1743901452",
+            "multiverseid": "51633"
+        }
+    ]
+}

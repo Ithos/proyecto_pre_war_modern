@@ -1,0 +1,439 @@
+{
+  "setlist": 
+  [
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3A8ed",
+            "icon": "ss ss-4x ss-8ed ss-fw set-icon 8ed",
+            "name": "Eighth Edition",
+            "label": "Eighth Edition (8ED)",
+            "code": "8ed"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Amrd",
+            "icon": "ss ss-4x ss-mrd ss-fw set-icon mrd",
+            "name": "Mirrodin",
+            "label": "Mirrodin (MRD)",
+            "code": "mrd"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Adst",
+            "icon": "ss ss-4x ss-dst ss-fw set-icon dst",
+            "name": "Darksteel",
+            "label": "Darksteel (DST)",
+            "code": "dst"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3A5dn",
+            "icon": "ss ss-4x ss-5dn ss-fw set-icon 5dn",
+            "label": "Fifth Dawn (5DN)",
+            "name": "Fifth Dawn",
+            "code": "5dn"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Achk",
+            "icon": "ss ss-4x ss-chk ss-fw set-icon chk",
+            "name": "Champions of Kamigawa",
+            "label": "Champions of Kamigawa (CHK)",
+            "code": "chk"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Abok",
+            "icon": "ss ss-4x ss-bok ss-fw set-icon bok",
+            "name": "Betrayers of Kamigawa",
+            "label": "Betrayers of Kamigawa (BOK)",
+            "code": "bok"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Asok",
+            "icon": "ss ss-4x ss-sok ss-fw set-icon sok",
+            "name": "Saviors of Kamigawa",
+            "label": "Saviors of Kamigawa (SOK)",
+            "code": "sok"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3A9ed",
+            "icon": "ss ss-4x ss-9ed ss-fw set-icon 9ed",
+            "name": "Ninth Edition",
+            "label": "Ninth Edition (9ED)",
+            "code": "9ed"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Arav",
+            "icon": "ss ss-4x ss-rav ss-fw set-icon rav",
+            "name": "Ravnica: City of Guilds",
+            "label": "Ravnica: City of Guilds (RAV)",
+            "code": "rav"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Agpt",
+            "icon": "ss ss-4x ss-gpt ss-fw set-icon gpt",
+            "name": "Guildpact",
+            "label": "Guildpact (GPT)",
+            "code": "gpt"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Adis",
+            "icon": "ss ss-4x ss-dis ss-fw set-icon dis",
+            "name": "Dissension",
+            "label": "Dissension (DIS)",
+            "code": "dis"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Acsp",
+            "icon": "ss ss-4x ss-csp ss-fw set-icon csp",
+            "name": "Coldsnap",
+            "label": "Coldsnap (CSP)",
+            "code": "csp"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Atsp",
+            "icon": "ss ss-4x ss-tsp ss-fw set-icon tsp",
+            "name": "Time Spiral",
+            "label": "Time Spiral (TSP)",
+            "code": "tsp"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Aplc",
+            "icon": "ss ss-4x ss-plc ss-fw set-icon plc",
+            "name": "Planar Chaos",
+            "label": "Planar Chaos (PLC)",
+            "code": "plc"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Afut",
+            "icon": "ss ss-4x ss-fut ss-fw set-icon fut",
+            "name": "Future Sight",
+            "label": "Future Sight (FUT)",
+            "code": "fut"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3A10e",
+            "icon": "ss ss-4x ss-10e ss-fw set-icon 10e",
+            "name": "Tenth Edition",
+            "label": "Tenth Edition (10E)",
+            "code": "10e"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Alrw",
+            "icon": "ss ss-4x ss-lrw ss-fw set-icon lrw",
+            "name": "Lorwyn",
+            "label": "Lorwyn (LRW)",
+            "code": "lrw"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Amor",
+            "icon": "ss ss-4x ss-mor ss-fw set-icon mor",
+            "name": "Morningtide",
+            "label": "Morningtide (MOR)",
+            "code": "mor"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Ashm",
+            "icon": "ss ss-4x ss-shm ss-fw set-icon shm",
+            "name": "Shadowmoor",
+            "label": "Shadowmoor (SHM)",
+            "code": "shm"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Aeve",
+            "icon": "ss ss-4x ss-eve ss-fw set-icon eve",
+            "name": "Eventide",
+            "label": "Eventide (EVE)",
+            "code": "eve"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Aala",
+            "icon": "ss ss-4x ss-ala ss-fw set-icon ala",
+            "name": "Shards of Alara",
+            "label": "Shards of Alara (ALA)",
+            "code": "ala"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Acon",
+            "icon": "ss ss-4x ss-con ss-fw set-icon con",
+            "name": "Conflux",
+            "label": "Conflux (CON)",
+            "code": "con"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Aarb",
+            "icon": "ss ss-4x ss-arb ss-fw set-icon arb",
+            "name": "Alara Reborn",
+            "label": "Alara Reborn (ARB)",
+            "code": "arb"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Am10",
+            "icon": "ss ss-4x ss-m10 ss-fw set-icon m10",
+            "name": "Magic 2010",
+            "label": "Magic 2010 (M10)",
+            "code": "m10"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Azen",
+            "icon": "ss ss-4x ss-zen ss-fw set-icon zen",
+            "name": "Zendikar",
+            "label": "Zendikar (ZEN)",
+            "code": "zen"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Awwk",
+            "icon": "ss ss-4x ss-wwk ss-fw set-icon wwk",
+            "name": "Worldwake",
+            "label": "Worldwake (WWK)",
+            "code": "wwk"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Aroe",
+            "icon": "ss ss-4x ss-roe ss-fw set-icon roe",
+            "name": "Rise of the Eldrazi",
+            "label": "Rise of the Eldrazi (ROE)",
+            "code": "roe"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Am11",
+            "icon": "ss ss-4x ss-m11 ss-fw set-icon m11",
+            "name": "Magic 2011",
+            "label": "Magic 2011 (M11)",
+            "code": "m11"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Asom",
+            "icon": "ss ss-4x ss-som ss-fw set-icon som",
+            "name": "Scars of Mirrodin",
+            "label": "Scars of Mirrodin (SOM)",
+            "code": "som"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Ambs",
+            "icon": "ss ss-4x ss-mbs ss-fw set-icon mbs",
+            "name": "Mirrodin Besieged",
+            "label": "Mirrodin Besieged (MBS)",
+            "code": "mbs"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Anph",
+            "icon": "ss ss-4x ss-nph ss-fw set-icon nph",
+            "name": "New Phyrexia",
+            "label": "New Phyrexia (NPH)",
+            "code": "nph"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Am12",
+            "icon": "ss ss-4x ss-m12 ss-fw set-icon m12",
+            "name": "Magic 2012",
+            "label": "Magic 2012 (M12)",
+            "code": "m12"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Aisd",
+            "icon": "ss ss-4x ss-isd ss-fw set-icon isd",
+            "name": "Innistrad",
+            "label": "Innistrad (ISD)",
+            "code": "isd"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Adka",
+            "icon": "ss ss-4x ss-dka ss-fw set-icon dka",
+            "name": "Dark Ascension",
+            "label": "Dark Ascension (DKA)",
+            "code": "dka"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Aavr",
+            "icon": "ss ss-4x ss-avr ss-fw set-icon avr",
+            "name": "Avacyn Restored",
+            "label": "Avacyn Restored (AVR)",
+            "code": "avr"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Am13",
+            "icon": "ss ss-4x ss-m13 ss-fw set-icon m13",
+            "name": "Magic 2013",
+            "label": "Magic 2013 (M13)",
+            "code": "m13"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Artr",
+            "icon": "ss ss-4x ss-rtr ss-fw set-icon rtr",
+            "name": "Return to Ravnica",
+            "label": "Return to Ravnica (RTR)",
+            "code": "rtr"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Agtc",
+            "icon": "ss ss-4x ss-gtc ss-fw set-icon gtc",
+            "name": "Gatecrash",
+            "label": "Gatecrash (GTC)",
+            "code": "gtc"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Adgm",
+            "icon": "ss ss-4x ss-dgm ss-fw set-icon dgm",
+            "name": "Dragon's Maze",
+            "label": "Dragon's Maze (DGM)",
+            "code": "dgm"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Am14",
+            "icon": "ss ss-4x ss-m14 ss-fw set-icon m14",
+            "name": "Magic 2014",
+            "label": "Magic 2014 (M14)",
+            "code": "m14"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Aths",
+            "icon": "ss ss-4x ss-ths ss-fw set-icon ths",
+            "name": "Theros",
+            "label": "Theros (THS)",
+            "code": "ths"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Abng",
+            "icon": "ss ss-4x ss-bng ss-fw set-icon bng",
+            "name": "Born of the Gods",
+            "label": "Born of the Gods (BNG)",
+            "code": "bng"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Ajou",
+            "icon": "ss ss-4x ss-jou ss-fw set-icon jou",
+            "name": "Journey into Nyx",
+            "label": "Journey into Nyx (JOU)",
+            "code": "jou"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Am15",
+            "icon": "ss ss-4x ss-m15 ss-fw set-icon m15",
+            "name": "Magic 2015",
+            "label": "Magic 2015 (M15)",
+            "code": "m15"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Aktk",
+            "icon": "ss ss-4x ss-ktk ss-fw set-icon ktk",
+            "name": "Khans of Tarkir",
+            "label": "Khans of Tarkir (KTK)",
+            "code": "ktk"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Afrf",
+            "icon": "ss ss-4x ss-frf ss-fw set-icon frf",
+            "name": "Fate Reforged",
+            "label": "Fate Reforged (FRF)",
+            "code": "frf"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Adtk",
+            "icon": "ss ss-4x ss-dtk ss-fw set-icon dtk",
+            "name": "Dragons of Tarkir",
+            "label": "Dragons of Tarkir (DTK)",
+            "code": "dtk"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Aori",
+            "icon": "ss ss-4x ss-ori ss-fw set-icon ori",
+            "name": "Magic Origins",
+            "label": "Magic Origins (ORI)",
+            "code": "ori"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Abfz",
+            "icon": "ss ss-4x ss-bfz ss-fw set-icon bfz",
+            "name": "Battle for Zendikar",
+            "label": "Battle for Zendikar (BFZ)",
+            "code": "bfz"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Aogw",
+            "icon": "ss ss-4x ss-ogw ss-fw set-icon ogw",
+            "name": "Oath of the Gatewatch",
+            "label": "Oath of the Gatewatch (OGW)",
+            "code": "ogw"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Asoi",
+            "icon": "ss ss-4x ss-soi ss-fw set-icon soi",
+            "name": "Shadows over Innistrad",
+            "label": "Shadows over Innistrad (SOI)",
+            "code": "soi"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Aemn",
+            "icon": "ss ss-4x ss-emn ss-fw set-icon emn",
+            "name": "Eldritch Moon",
+            "label": "Eldritch Moon (EMN)",
+            "code": "emn"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Akld",
+            "icon": "ss ss-4x ss-kld ss-fw set-icon kld",
+            "name": "Kaladesh",
+            "label": "Kaladesh (KLD)",
+            "code": "kld"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Aaer",
+            "icon": "ss ss-4x ss-aer ss-fw set-icon aer",
+            "name": "Aether Revolt",
+            "label": "Aether Revolt (AER)",
+            "code": "aer"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Aakh",
+            "icon": "ss ss-4x ss-akh ss-fw set-icon akh",
+            "name": "Amonkhet",
+            "label": "Amonkhet (AKH)",
+            "code": "akh"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Ahou",
+            "icon": "ss ss-4x ss-hou ss-fw set-icon hou",
+            "name": "Hour of Devastation",
+            "label": "Hour of Devastation (HOU)",
+            "code": "hou"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Axln",
+            "icon": "ss ss-4x ss-xln ss-fw set-icon xln",
+            "name": "Ixalan",
+            "label": "Ixalan (XLN)",
+            "code": "xln"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Arix",
+            "icon": "ss ss-4x ss-rix ss-fw set-icon rix",
+            "name": "Rivals of Ixalan",
+            "label": "Rivals of Ixalan (RIX)",
+            "code": "rix"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Adom",
+            "icon": "ss ss-4x ss-dom ss-fw set-icon dom",
+            "name": "Dominaria",
+            "label": "Dominaria (DOM)",
+            "code": "dom"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Am19",
+            "icon": "ss ss-4x ss-m19 ss-fw set-icon m19",
+            "name": "Core Set 2019",
+            "label": "Core Set 2019 (M19)",
+            "code": "m19"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Agrn",
+            "icon": "ss ss-4x ss-grn ss-fw set-icon grn",
+            "name": "Guilds of Ravnica",
+            "label": "Guilds of Ravnica (GRN)",
+            "code": "grn"
+        },
+        {
+            "href": "https://scryfall.com/search?as=grid&order=name&q=%28game%3Apaper%29+set%3Arna",
+            "icon": "ss ss-4x ss-rna ss-fw set-icon rna",
+            "name": "Ravnica Allegiance",
+            "label": "Ravnica Allegiance (RNA)",
+            "code": "rna"
+        }
+    ]
+}

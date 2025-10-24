@@ -1,0 +1,980 @@
+@import url('https://fonts.cdnfonts.com/css/magicmedieval');
+@import url('https://fonts.cdnfonts.com/css/planewalker');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --SECONDARY_COLOR: #4a91e234;
+  --PRIMARY_COLOR: #026085;
+  --BACKGROUND_COLOR: #004d6b;
+  --NAV_BACKGROUND_COLOR: #009696de;
+  --GREY_BACKGROUND_COLOR: #adadad7e;
+  --TEXT_COLOR: #f3ffd1;
+  --LINK_COLOR: #bfddff;
+  --HIGHLIGHTED_COLOR: #ffcc00;
+  --BORDER_COLOR: #90c1f8;
+  --WHITE_COLOR: #ffffff;
+  --BLACK_COLOR: #000000;
+  --BLUE_COLOR: #0000ff;
+  --RED_COLOR: #ff0000;
+  --GREEN_COLOR: #00ff00;
+  --GREY_COLOR: #808080;
+  --GREY_TEXT_COLOR: #afafaf;
+  --LIGHT_GREY_COLOR: #d3d3d3;
+  --TRANSPARENT_COLOR: transparent;
+  --SHADOW_COLOR: rgba(0, 0, 0, 0.5);
+  --MAGIC_TITLE: 'MagicMedieval', sans-serif;
+  --MAGIC_TEXT: 'Planewalker', sans-serif;
+  --FONT_SIZE: 1.3rem;
+  --MID_TITLE_FONT_SIZE: 1.7rem;
+  --SMALL_FONT_SIZE: 1rem;
+  --TITLE_FONT_SIZE: 4rem;
+  --APP_MIN_HEIGHT: 80vh;
+  --CARDS_MIN_HEIGHT: 65vh;
+  --SEARCH_MIN_HEIGHT: 60vh;
+  --BUTTON_WIDTH: 40px;
+  --SPINDOWN_WIDTH: 60px;
+  --LINE_HEIGHT: 5px;
+  --LINE_RADIUS: 5px;
+  --SMALL_MARGIN: 2px;
+  --LINE_WIDTH: 40px;
+  --HEADER_HEIGHT: 100px;
+  --HEADER_TITLE_HEIGHT: 120px;
+  --MIN_APP_WIDTH: 400px;
+  --HOME_DESCRIPTION_HEIGHT: 1000px;
+  --SPACER_HEIGHT: 40px;
+  --INPUT_HEIGHT: 40px;
+  --WIDE_BUTTON_WIDTH: 100px;
+  --FOOTER_HEIGHT: 60px;
+  --DECK_HEADER_HEIGHT: 80px;
+  --TEXT_SPACER_WIDTH: 60px;
+  --SMALL_TEXT_SPACER_WIDTH: 30px;
+  --CHECKBOX_SIZE: 20px;
+  --SMALL_SPACER_HEIGHT: 10px;
+  --SMALL_WIDTH_SPACER: 40px;
+  --TEXT_PARAGRAPH_WIDTH: 60%;
+  --CARD_SEARCH_WIDTH: 65%;
+  --HOME_SETS_LIST_WIDTH: 80%;
+  --MULTI_SELECT_WIDTH: 60%;
+  --SEARCH_CARD_GAP: 10px;
+  --CARD_WIDTH: 250px;
+  --CARD_HEIGHT: 338px;
+  --REDUCED_CARD_HEIGHT: 84px;
+  --DECK_BODY_CARD_HEIGHT: 55rem;
+  --SIDEBOARD_CARD_HEIGHT: 30rem;
+  --SMALL_ICON_SIZE: 0.5rem;
+  --TEXT_SHADOW: 2px 2px 4px var(--SHADOW_COLOR);
+  --BOX_SHADOW: 0px 0px 15px var(--SHADOW_COLOR);
+  --DESCRIPTION_IMG_URL_1: url('https://cards.scryfall.io/art_crop/front/6/9/69daba76-96e8-4bcc-ab79-2f00189ad8fb.jpg?1619398799');
+  --DESCRIPTION_IMG_URL_2: url('https://cards.scryfall.io/art_crop/front/5/8/580fbbf8-ba7e-4889-a5ea-d066f3ea8cea.jpg?1734350261');
+  --DESCRIPTION_IMG_URL_3: url('https://cards.scryfall.io/art_crop/front/8/2/829e3d6e-5d7c-4cc4-a7a6-7cbf5a7442ba.jpg?1562355759');
+  --DOT_SIZE: 15px;
+  --DOT_GAP: 10px;
+  --DOT_COLOR: var(--TEXT_COLOR);
+  --DOT_ANIMATION_DURATION: 1.5s;
+  --DOT_SCALE: 1.5;
+}
+
+html {
+  font-size: var(--FONT_SIZE);
+  color: var(--TEXT_COLOR);
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: var(--MAGIC_TEXT);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--BACKGROUND_COLOR);
+}
+
+#root {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  min-width: var(--MIN_APP_WIDTH);
+  min-height: var(--APP_MIN_HEIGHT);
+  min-height: 100%;
+  box-shadow: var(--BOX_SHADOW);
+  font-size: var(--FONT_SIZE);
+}
+
+.Header {
+  width: 100%;
+  height: var(--HEADER_HEIGHT);
+  background-color: var(--NAV_BACKGROUND_COLOR);
+  color: var(--TEXT_COLOR);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  text-shadow: var(--TEXT_SHADOW);
+}
+
+.Nav {
+  width: 100%;
+  min-width: 600px;
+  height: var(--HEADER_HEIGHT);
+  background-color: var(--TRANSPARENT_COLOR);
+  color: var(--TEXT_COLOR);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--SMALL_MARGIN);
+  z-index: 1000;
+}
+
+.mobile-nav-button {
+  width: var(--BUTTON_WIDTH);
+  height: var(--HEADER_HEIGHT);
+  background-color: var(--TRANSPARENT_COLOR);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem 3rem; /*relleno del encabezado*/
+  z-index: 1000;
+}
+
+.Nav-list {
+  width: 90%;
+  height: var(--HEADER_HEIGHT);
+  color: var(--TEXT_COLOR);
+  font-size: var(--MID_TITLE_FONT_SIZE);
+  background-color: var(--TRANSPARENT_COLOR);
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1000;
+}
+
+.Nav-list li {
+  padding: 1rem;
+}
+
+.Nav-list a {
+  color: var(--TEXT_COLOR);
+  text-decoration: none;
+}
+
+.Nav-list li:hover, .Nav-list li:focus, .Nav-list li:hover a, .Nav-list li:focus a{
+  color: var(--HIGHLIGHTED_COLOR);
+  text-decoration: underline;
+}
+
+.Nav-list li:hover a, 
+.Nav-list li:focus a {
+  cursor: pointer;
+}
+
+.Header-title-container {
+  width: 50%;
+  height: var(--HEADER_HEIGHT);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--TRANSPARENT_COLOR);
+  padding: 0;
+  margin: 0;
+}
+
+.Header-title {
+  height: var(--HEADER_HEIGHT);
+  display: flex;
+  color: var(--TEXT_COLOR);
+  font-family: var(--MAGIC_TITLE);
+  font-size: var(--TITLE_FONT_SIZE);
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--TRANSPARENT_COLOR);
+  padding: 0;
+  margin: 0;
+}
+
+.Header-title:visited {
+  height: var(--HEADER_HEIGHT);
+  color: var(--TEXT_COLOR);
+  font-family: var(--MAGIC_TITLE);
+  font-size: var(--TITLE_FONT_SIZE);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--TRANSPARENT_COLOR);
+  padding: 0;
+  margin: 0;
+}
+
+.Header-title:hover a,
+.Header-title:focus a {
+  cursor: pointer;
+}
+
+.mobile-nav-icon,
+.mobile-nav-icon::before,
+.mobile-nav-icon::after{
+    background-color: var(--TEXT_COLOR); /*color de la línea del menú*/
+    position: absolute; /*posiciona los elementos de forma absoluta*/
+    width: var(--LINE_WIDTH); /*ancho de la línea del menú*/
+    height: var(--LINE_HEIGHT); /*alto de la línea del menú*/
+    border-radius: var(--LINE_RADIUS); /*redondea las esquinas de la línea del menú*/
+    transition : all 0.2s ease-in-out; /*transición suave al pasar el ratón por encima del botón del menú*/
+}
+.mobile-nav-icon::before,
+.mobile-nav-icon::after
+{
+    content: ""; /*contenido vacío para los pseudo-elementos*/
+}
+.mobile-nav-icon::before
+{
+    transform: translate(-20px, -12px);
+}
+.mobile-nav-icon::after
+{
+    transform: translate(-20px, 12px);
+}
+
+.mobile-nav-button:focus-within .mobile-nav-icon{
+    background-color: transparent; /*fondo transparente del icono del menú al pasar el ratón por encima o al hacer foco*/
+    background-image: none;
+    transform: rotate(720deg); /*rota el icono del menú al pasar el ratón por encima o al hacer foco*/
+    transition: transform 0.5s ease-in-out; /*transición suave al pasar*/
+}
+.mobile-nav-button:focus-within .mobile-nav-icon:before{
+    transform: translateX(-20px) rotate(45deg); /*rota la línea superior del icono del menú al pasar el ratón por encima o al hacer foco*/
+}
+.mobile-nav-button:focus-within .mobile-nav-icon:after{
+    transform: translateX(-20px) rotate(-45deg); /*rota la línea superior del icono del menú al pasar el ratón por encima o al hacer foco*/
+}
+
+.Home {
+  width: 100%;
+  background-color: var(--PRIMARY_COLOR);
+  padding-top: var(--HEADER_HEIGHT);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-description {
+  width: 100%;
+  height: var(--HOME_DESCRIPTION_HEIGHT);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: var(--DESCRIPTION_IMG_URL_1), var(--DESCRIPTION_IMG_URL_2), var(--DESCRIPTION_IMG_URL_3);
+  background-position: right bottom, left top, center;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: contain, contain, contain;
+  background-position: center, left, right;
+}
+
+.Home-description h1{
+  font-size: var(--TITLE_FONT_SIZE);
+  text-shadow: var(--TEXT_SHADOW);
+}
+
+.Home-description h3{
+  font-size: var(--MID_TITLE_FONT_SIZE);
+  text-shadow: var(--TEXT_SHADOW);
+}
+
+.Home-about{
+  width: var(--TEXT_PARAGRAPH_WIDTH);
+  padding-top: var(--SPACER_HEIGHT);
+  padding-bottom: var(--SPACER_HEIGHT);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-about h1{
+  font-size: var(--TITLE_FONT_SIZE);
+  text-shadow: var(--TEXT_SHADOW);
+}
+
+.Home-about a{
+  color: var(--LINK_COLOR);
+  text-decoration: none;
+}
+
+.Home-about a:hover, .Home-about a:focus{
+  color: var(--HIGHLIGHTED_COLOR);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Home-rules{
+  width: 100%;
+  padding-top: var(--HEADER_HEIGHT);
+  padding-bottom: var(--HEADER_HEIGHT);
+  background-color: var(--SECONDARY_COLOR);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home-rules p{
+  width: var(--TEXT_PARAGRAPH_WIDTH);
+}
+
+.Home-rules a{
+  color: var(--LINK_COLOR);
+  text-decoration: none;
+}
+
+.Home-rules a:hover, .Home-rules a:focus{
+  color: var(--HIGHLIGHTED_COLOR);
+  text-decoration: underline;
+}
+
+.Home-rules h1{
+  font-size: var(--TITLE_FONT_SIZE);
+  text-shadow: var(--TEXT_SHADOW);
+}
+
+.Home-sets {
+  padding-top: var(--HEADER_HEIGHT);
+  padding-bottom: var(--HEADER_HEIGHT);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-sets-list {
+  width: var(--HOME_SETS_LIST_WIDTH);
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.Home-sets-list li {
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.Home-sets-list li a {
+  text-wrap: nowrap;
+  font-size: var(--SMALL_FONT_SIZE);
+  color: var(--LINK_COLOR);
+  text-decoration: none;
+}
+
+.Home-sets-list li a:hover, .Home-sets-list li a:focus{
+  color: var(--HIGHLIGHTED_COLOR);
+  text-decoration: underline;
+}
+
+.Home-sets h1{
+  font-size: var(--TITLE_FONT_SIZE);
+  text-shadow: var(--TEXT_SHADOW);
+}
+
+.Home-banlist {
+  width: 100%;
+  padding-top: var(--HEADER_HEIGHT);
+  padding-bottom: var(--SPACER_HEIGHT);
+  background-color: var(--SECONDARY_COLOR);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home-banlist h1{
+  font-size: var(--TITLE_FONT_SIZE);
+  text-shadow: var(--TEXT_SHADOW);
+}
+
+.bannedCardsList {
+  width: var(--HOME_SETS_LIST_WIDTH);
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.bannedCardsList li {
+  width: var(--CARD_WIDTH);
+  height: var(--CARD_HEIGHT);
+}
+
+.bannedCardsList li a {
+  text-wrap: nowrap;
+  font-size: var(--SMALL_FONT_SIZE);
+  color: var(--LINK_COLOR);
+  text-decoration: none;
+}
+
+.bannedCardsList li a:hover, .bannedCardsList li a:focus{
+  color: var(--HIGHLIGHTED_COLOR);
+  text-decoration: underline;
+}
+
+.cardImage, .searchCardImage {
+  width: var(--CARD_WIDTH);
+  height: var(--CARD_HEIGHT);
+}
+
+.footer {
+  width: 100%;
+  max-height: var(--FOOTER_HEIGHT);
+  font-size: var(--SMALL_FONT_SIZE);
+  background-color: var(--BACKGROUND_COLOR);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--FOOTER_HEIGHT);
+}
+
+.cardTipImage {
+  width: var(--CARD_WIDTH);
+  height: var(--CARD_HEIGHT);
+  display: none;
+  position: fixed;
+  z-index: 10000;
+}
+
+.cardTip:hover + .cardTipImage, .cardTip:focus + .cardTipImage{
+  display: block;
+  transform: translate(10px, 10px);
+}
+
+.cardSearch {
+  width: 100%;
+  min-height: var(--CARDS_MIN_HEIGHT);
+  background-color: var(--PRIMARY_COLOR);
+  padding: var(--HEADER_TITLE_HEIGHT);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardSearch h1{
+  font-size: var(--TITLE_FONT_SIZE);
+  text-shadow: var(--TEXT_SHADOW);
+}
+
+.cardSearchForm {
+  width: var(--CARD_SEARCH_WIDTH);
+  height: auto;
+  min-height: var(--CARDS_MIN_HEIGHT);
+  padding-top: var(--SPACER_HEIGHT);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.cardSearchForm label {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: var(--SMALL_SPACER_HEIGHT);
+}
+
+.cardSearchForm label p {
+  width: 25%;
+}
+
+.basic-multi-select  {
+  color: var(--SHADOW_COLOR);
+  width: var(--MULTI_SELECT_WIDTH);
+  min-width: var(--MIN_APP_WIDTH);
+  max-width: none;
+}
+
+.basic-multi-select .smallSetIcon {
+  font-size: 1rem;
+}
+
+.cardColor div {
+  width: var(--MULTI_SELECT_WIDTH);
+}
+
+.cardColor div .colorList{
+  width: 100%;
+}
+
+.colorList {
+  width: var(--MULTI_SELECT_WIDTH);
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.colorList li {
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.colorList li i {
+  padding: 0.2rem;
+}
+
+.wIcon {
+  color: var(--WHITE_COLOR);
+}
+
+.uIcon {
+  color: var(--BLUE_COLOR);
+}
+
+.bIcon {
+  color: var(--BLACK_COLOR);
+}
+
+.rIcon {
+  color: var(--RED_COLOR);
+}
+
+.gIcon {
+  color: var(--GREEN_COLOR);
+}
+
+.cIcon {
+  color: var(--GREY_COLOR);
+}
+
+.colorCheckbox, .cardTypeCheckbox {
+  width: var(--CHECKBOX_SIZE);
+  height: var(--CHECKBOX_SIZE);
+  margin-top: var(--SMALL_MARGIN);
+  cursor: pointer;
+}
+
+.cardTypeLogic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: var(--SMALL_SPACER_HEIGHT);
+}
+
+.cardTypeCheckboxText{
+  flex-wrap: nowrap;
+  text-wrap: nowrap;
+  padding-left: var(--SMALL_SPACER_HEIGHT);
+}
+
+.colorLogicSelect, .cardNameInput, .cardTextInput {
+  width: var(--MULTI_SELECT_WIDTH);
+  height: var(--INPUT_HEIGHT);
+  font-size: var(--FONT_SIZE);
+  font-family: var(--MAGIC_TEXT);
+  color: var(--SHADOW_COLOR);
+}
+
+.manaCostInputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.minManaCostInput, .maxManaCostInput {
+  width: var(--SPINDOWN_WIDTH);
+  height: var(--INPUT_HEIGHT);
+  font-size: var(--FONT_SIZE);
+  font-family: var(--MAGIC_TEXT);
+  color: var(--SHADOW_COLOR);
+  text-align: center;
+}
+
+.minManaCostText, .maxManaCostText {
+  margin-right: var(--SMALL_WIDTH_SPACER);
+}
+
+.buttonsSection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1rem;
+  padding-top: var(--SPACER_HEIGHT);
+}
+
+.searchButton, .resetButton, .button {
+  width: var(--WIDE_BUTTON_WIDTH);
+  height: var(--INPUT_HEIGHT);
+  font-size: var(--FONT_SIZE);
+  font-family: var(--MAGIC_TEXT);
+  text-align: center;
+  color: var(--SHADOW_COLOR);
+  cursor: pointer;
+}
+
+.disabled {
+  width: var(--WIDE_BUTTON_WIDTH);
+  height: var(--INPUT_HEIGHT);
+  font-size: var(--FONT_SIZE);
+  font-family: var(--MAGIC_TEXT);
+  text-align: center;
+  color: var(--GREY_TEXT_COLOR);
+  background-color: var(--LIGHT_GREY_COLOR);
+}
+
+.searchResults {
+  width: 100%;
+  min-height: var(--SEARCH_MIN_HEIGHT);
+  background-color: var(--PRIMARY_COLOR);
+  padding-top: var(--SPACER_HEIGHT);
+}
+
+.cardsContainer {
+  width: 100%;
+  min-height: var(--SEARCH_MIN_HEIGHT);
+  background-color: var(--PRIMARY_COLOR);
+  padding: var(--HEADER_HEIGHT);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--SEARCH_CARD_GAP)
+}
+
+.resultsHeader {
+  width: 100%;
+  font-size: var(--MID_TITLE_FONT_SIZE);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.scrollToTop {
+  width: var(--WIDE_BUTTON_WIDTH);
+  height: var(--INPUT_HEIGHT);
+  font-size: var(--FONT_SIZE);
+  font-family: var(--MAGIC_TEXT);
+  text-align: center;
+  color: var(--SHADOW_COLOR);
+  background-color: var(--NAV_BACKGROUND_COLOR);
+  cursor: pointer;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+
+.dots-loading {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--DOT_GAP);
+    margin-top: var(--SMALL_SPACER_HEIGHT);
+  }
+
+.dot {
+    width: var(--DOT_SIZE);
+    height: var(--DOT_SIZE);
+    background-color: var(--DOT_COLOR);
+    border-radius: 50%;
+    animation: dotPulse var(--DOT_ANIMATION_DURATION) infinite;
+    display: inline-block;
+    transform: scale(1);
+    opacity: 0.6;
+  }
+
+  .dot:nth-child(1) { animation-delay: calc(var(--DOT_ANIMATION_DURATION) * 0); }
+  .dot:nth-child(2) { animation-delay: calc(var(--DOT_ANIMATION_DURATION) * 0.33); }
+  .dot:nth-child(3) { animation-delay: calc(var(--DOT_ANIMATION_DURATION) * 0.66); }
+
+  @keyframes dotPulse {
+    /* keep mostly unscaled, make a single peak in the middle */
+    0%, 60%, 100% { transform: scale(1); opacity: 0.6; }
+    30%          { transform: scale(var(--DOT_SCALE)); opacity: 1; }
+  }
+
+.Decks {
+  width: 100%;
+  min-height: var(--CARDS_MIN_HEIGHT);
+  background-color: var(--PRIMARY_COLOR);
+  padding: var(--HEADER_TITLE_HEIGHT);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Decks-description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Decks-description h1{
+  font-size: var(--TITLE_FONT_SIZE);
+  text-shadow: var(--TEXT_SHADOW);
+}
+
+.Decks-description h3{
+  font-size: var(--MID_TITLE_FONT_SIZE);
+  text-shadow: var(--TEXT_SHADOW);
+}
+
+.Deck{
+  padding-top: var(--SPACER_HEIGHT);
+}
+
+.DeckBodyList {
+  width: 100%;
+  height: var(--DECK_BODY_CARD_HEIGHT);
+  list-style-type: none;
+  display: grid; /* use grid for strict column layout */
+  grid-template-columns: repeat(6, 1fr); /* six equal columns */
+  grid-auto-rows: min-content;
+  gap: 0; /* no gap to keep items as close as possible */
+  box-sizing: border-box;
+  align-items: start;
+  justify-items: stretch;
+  padding: 0;
+  margin: 0;
+}
+
+.DeckHeader {
+  width: 100%;
+  height: var(--DECK_HEADER_HEIGHT);
+  background-color: var(--GREY_BACKGROUND_COLOR);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+.DeckHeader h2 {
+  font-size: var(--MID_TITLE_FONT_SIZE);
+  text-shadow: var(--TEXT_SHADOW);
+  padding-left: var(--TEXT_SPACER_WIDTH);
+  margin: 0;
+}
+
+.downloadText {
+  width: var(--BUTTON_WIDTH);
+  height: var(--BUTTON_WIDTH);
+  background-color: var(--GREY_BACKGROUND_COLOR);
+  margin-right: var(--SMALL_TEXT_SPACER_WIDTH);
+  cursor: pointer;
+  border: none;
+  background-position: center;
+  align-self: center;
+  border-radius: 8px;
+}
+
+.SideboardList {
+  width: 100%;
+  height: var(--SIDEBOARD_CARD_HEIGHT);
+  list-style-type: none;
+  display: grid; /* use grid for strict column layout */
+  grid-template-columns: repeat(6, 1fr); /* six equal columns */
+  grid-auto-rows: min-content;
+  gap: 0; /* no gap to keep items as close as possible */
+  box-sizing: border-box;
+  align-items: start;
+  justify-items: stretch;
+  padding: 0;
+  margin: 0;
+}
+
+.DeckBody li, .SideboardList li
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  max-height: var(--REDUCED_CARD_HEIGHT);
+  display: block;
+}
+
+.CardContainer img {
+  max-width: var(--CARD_WIDTH);
+  max-height: var(--CARD_HEIGHT);
+}
+
+.SideboardHeader {
+  height: var(--DECK_HEADER_HEIGHT);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.SideboardHeader h2 {
+  font-size: var(--MID_TITLE_FONT_SIZE);
+  text-shadow: var(--TEXT_SHADOW);
+  padding-left: var(--TEXT_SPACER_WIDTH);
+}
+
+.cardReference:hover + .cardTipImage, .cardReference:focus + .cardTipImage{
+  display: block;
+  transform: translate(10px, 10px);
+}
+
+.EntryLink:hover + .cardTipImage, .EntryLink:focus + .cardTipImage{
+  display: block;
+  transform: translate(10px, 10px);
+}
+
+
+@media  screen and (max-width: 1500px)
+{
+  .DeckBodyList, .SideboardList {
+    grid-template-columns: repeat(3, 1fr); /* three equal columns on smaller screens */
+    height: auto;
+  }
+
+  .DeckBody li, .SideboardList li
+  {
+    max-height: auto;
+  }
+
+  .DeckBody li a, .SideboardList li a {
+    text-wrap: nowrap;
+    font-size: var(--SMALL_FONT_SIZE);
+    color: var(--LINK_COLOR);
+    text-decoration: none;
+  }
+
+  .DeckBody li a:hover, .DeckBody li a:focus, .SideboardList li a:hover, .SideboardList li a:focus{
+    color: var(--HIGHLIGHTED_COLOR);
+    text-decoration: underline;
+  }
+}
+
+@media  screen and (max-width: 992px) {
+  :root {
+    --FONT_SIZE: 1rem;
+    --MID_TITLE_FONT_SIZE: 1.3rem;
+    --SMALL_FONT_SIZE: 0.7rem;
+    --TITLE_FONT_SIZE: 2rem;
+    --HOME_DESCRIPTION_HEIGHT: 400px;
+    --SMALL_MULTI_SELECT_WIDTH: 350px;
+    --SMALL_PADDING: 10px;
+  }
+
+  .Nav {
+    min-width: none;
+    position: fixed;
+    top: var(--HEADER_HEIGHT);
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    animation: asideFadeIn 0.3s linear;
+  }
+
+  .Header-title-container {
+    width: 30%;
+    float: left;
+  }
+
+  .Nav-list{
+    display: block;
+    width: 60%;
+    float: right;
+  }
+
+  .Nav-list li {
+    padding: 1rem;
+    background-color: var(--NAV_BACKGROUND_COLOR);
+  }
+
+  .bannedCardsList li {
+    width: auto;
+    height: auto;
+  }
+
+  .cardImage {
+    width: 0;
+    height: 0;
+  }
+
+  @keyframes asideFadeIn{
+    from {
+        transform: translateX(50%); /*escala el menú de navegación al 0%*/
+    }
+    to {
+        transform: translateX(0); /*escala el menú de navegación al 100%*/
+    }
+  }
+  .bannedCardsList {
+    flex-direction: column;
+  }
+
+  .cardSearch {
+      width: 100%;
+      min-height: 90vh;
+      padding-top: var(--HEADER_HEIGHT);
+      padding-bottom: var(--HEADER_HEIGHT);
+      padding-left: var(--SMALL_PADDING);
+      padding-right: var(--SMALL_PADDING);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+  }
+
+  .cardSearchForm {
+    min-width: none;
+    min-height: auto;
+    width: inherit;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .basic-multi-select, .cardColor div, .colorList {
+    min-width: auto;
+    width: var(--SMALL_MULTI_SELECT_WIDTH);
+  }
+
+  .buttonsSection{
+    padding: var(--SMALL_PADDING);    
+  }
+}

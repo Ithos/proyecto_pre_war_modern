@@ -1,0 +1,640 @@
+{
+    "typeLists":{
+        "cardTypes":[
+            {
+                "value": "creature",
+                "label": "Creature",
+                "type": "cardType"
+            },
+            {
+                "value": "enchantment",
+                "label": "Enchantment",
+                "type": "cardType"
+            },
+            {
+                "value": "artifact",
+                "label": "Artifact",
+                "type": "cardType"
+            },
+            {
+                "value": "planeswalker",
+                "label": "Planeswalker",
+                "type": "cardType"
+            },
+            {
+                "value": "land",
+                "label": "Land",
+                "type": "cardType"
+            },
+            {
+                "value": "instant",
+                "label": "Instant",
+                "type": "cardType"
+            },
+            {
+                "value": "sorcery",
+                "label": "Sorcery",
+                "type": "cardType"
+            },
+            {
+                "value": "kindred",
+                "label": "Kindred",
+                "type": "cardType"
+            }
+        ],
+        "supertypes":[
+            {
+                "value": "basic",
+                "label": "Basic",
+                "type": "supertype"
+            },
+            {
+                "value": "legendary",
+                "label": "Legendary",
+                "type": "supertype"
+            },
+            {
+                "value": "snow",
+                "label": "Snow",
+                "type": "supertype"
+            }
+        ],
+        "creatureTypes":[
+            {"value": "advisor", "label": "Advisor", "type": "creatureType"},
+            {"value": "aetherborn", "label": "Aetherborn", "type": "creatureType"},
+            {"value": "alien", "label": "Alien", "type": "creatureType"},
+            {"value": "ally", "label": "Ally", "type": "creatureType"},
+            {"value": "angel", "label": "Angel", "type": "creatureType"},
+            {"value": "antelope", "label": "Antelope", "type": "creatureType"},
+            {"value": "ape", "label": "Ape", "type": "creatureType"},
+            {"value": "archer", "label": "Archer", "type": "creatureType"},
+            {"value": "archon", "label": "Archon", "type": "creatureType"},
+            {"value": "artificer", "label": "Artificer", "type": "creatureType"},
+            {"value": "assassin", "label": "Assassin", "type": "creatureType"},
+            {"value": "assembly-worker", "label": "Assembly-Worker", "type": "creatureType"},
+            {"value": "atog", "label": "Atog", "type": "creatureType"},
+            {"value": "aurochs", "label": "Aurochs", "type": "creatureType"},
+            {"value": "avatar", "label": "Avatar", "type": "creatureType"},
+            {"value": "azra", "label": "Azra", "type": "creatureType"},
+            {"value": "badger", "label": "Badger", "type": "creatureType"},
+            {"value": "ball", "label": "Ball", "type": "creatureType"},
+            {"value": "barbarian", "label": "Barbarian", "type": "creatureType"},
+            {"value": "basilisk", "label": "Basilisk", "type": "creatureType"},
+            {"value": "bat", "label": "Bat", "type": "creatureType"},
+            {"value": "bear", "label": "Bear", "type": "creatureType"},
+            {"value": "beast", "label": "Beast", "type": "creatureType"},
+            {"value": "beeble", "label": "Beeble", "type": "creatureType"},
+            {"value": "berserker", "label": "Berserker", "type": "creatureType"},
+            {"value": "bird", "label": "Bird", "type": "creatureType"},
+            {"value": "blinkmoth", "label": "Blinkmoth", "type": "creatureType"},
+            {"value": "boar", "label": "Boar", "type": "creatureType"},
+            {"value": "bringer", "label": "Bringer", "type": "creatureType"},
+            {"value": "brushwagg", "label": "Brushwagg", "type": "creatureType"},
+            {"value": "camarid", "label": "Camarid", "type": "creatureType"},
+            {"value": "camel", "label": "Camel", "type": "creatureType"},
+            {"value": "caribou", "label": "Caribou", "type": "creatureType"},
+            {"value": "carrier", "label": "Carrier", "type": "creatureType"},
+            {"value": "cat", "label": "Cat", "type": "creatureType"},
+            {"value": "centaur", "label": "Centaur", "type": "creatureType"},
+            {"value": "cephalid", "label": "Cephalid", "type": "creatureType"},
+            {"value": "chimera", "label": "Chimera", "type": "creatureType"},
+            {"value": "citizen", "label": "Citizen", "type": "creatureType"},
+            {"value": "cleric", "label": "Cleric", "type": "creatureType"},
+            {"value": "cockatrice", "label": "Cockatrice", "type": "creatureType"},
+            {"value": "construct", "label": "Construct", "type": "creatureType"},
+            {"value": "coward", "label": "Coward", "type": "creatureType"},
+            {"value": "crab", "label": "Crab", "type": "creatureType"},
+            {"value": "crocodile", "label": "Crocodile", "type": "creatureType"},
+            {"value": "cyclops", "label": "Cyclops", "type": "creatureType"},
+            {"value": "dauthi", "label": "Dauthi", "type": "creatureType"},
+            {"value": "demigod", "label": "Demigod", "type": "creatureType"},
+            {"value": "demon", "label": "Demon", "type": "creatureType"},
+            {"value": "deserter", "label": "Deserter", "type": "creatureType"},
+            {"value": "devil", "label": "Devil", "type": "creatureType"},
+            {"value": "dinosaur", "label": "Dinosaur", "type": "creatureType"},
+            {"value": "djinn", "label": "Djinn", "type": "creatureType"},
+            {"value": "dog", "label": "Dog", "type": "creatureType"},
+            {"value": "dragon", "label": "Dragon", "type": "creatureType"},
+            {"value": "drake", "label": "Drake", "type": "creatureType"},
+            {"value": "dreadnought", "label": "Dreadnought", "type": "creatureType"},
+            {"value": "drone", "label": "Drone", "type": "creatureType"},
+            {"value": "druid", "label": "Druid", "type": "creatureType"},
+            {"value": "dryad", "label": "Dryad", "type": "creatureType"},
+            {"value": "dwarf", "label": "Dwarf", "type": "creatureType"},
+            {"value": "efreet", "label": "Efreet", "type": "creatureType"},
+            {"value": "egg", "label": "Egg", "type": "creatureType"},
+            {"value": "elder", "label": "Elder", "type": "creatureType"},
+            {"value": "eldrazi", "label": "Eldrazi", "type": "creatureType"},
+            {"value": "elemental", "label": "Elemental", "type": "creatureType"},
+            {"value": "elephant", "label": "Elephant", "type": "creatureType"},
+            {"value": "elf", "label": "Elf", "type": "creatureType"},
+            {"value": "elk", "label": "Elk", "type": "creatureType"},
+            {"value": "eye", "label": "Eye", "type": "creatureType"},
+            {"value": "faerie", "label": "Faerie", "type": "creatureType"},
+            {"value": "ferret", "label": "Ferret", "type": "creatureType"},
+            {"value": "fish", "label": "Fish", "type": "creatureType"},
+            {"value": "flagbearer", "label": "Flagbearer", "type": "creatureType"},
+            {"value": "fox", "label": "Fox", "type": "creatureType"},
+            {"value": "fractal", "label": "Fractal", "type": "creatureType"},
+            {"value": "frog", "label": "Frog", "type": "creatureType"},
+            {"value": "fungus", "label": "Fungus", "type": "creatureType"},
+            {"value": "gargoyle", "label": "Gargoyle", "type": "creatureType"},
+            {"value": "germ", "label": "Germ", "type": "creatureType"},
+            {"value": "giant", "label": "Giant", "type": "creatureType"},
+            {"value": "gnome", "label": "Gnome", "type": "creatureType"},
+            {"value": "goat", "label": "Goat", "type": "creatureType"},
+            {"value": "goblin", "label": "Goblin", "type": "creatureType"},
+            {"value": "god", "label": "God", "type": "creatureType"},
+            {"value": "golem", "label": "Golem", "type": "creatureType"},
+            {"value": "gorgon", "label": "Gorgon", "type": "creatureType"},
+            {"value": "graveborn", "label": "Graveborn", "type": "creatureType"},
+            {"value": "gremlin", "label": "Gremlin", "type": "creatureType"},
+            {"value": "griffin", "label": "Griffin", "type": "creatureType"},
+            {"value": "hag", "label": "Hag", "type": "creatureType"},
+            {"value": "halfling", "label": "Halfling", "type": "creatureType"},
+            {"value": "hamster", "label": "Hamster", "type": "creatureType"},
+            {"value": "harpy", "label": "Harpy", "type": "creatureType"},
+            {"value": "hellion", "label": "Hellion", "type": "creatureType"},
+            {"value": "hippo", "label": "Hippo", "type": "creatureType"},
+            {"value": "hippogriff", "label": "Hippogriff", "type": "creatureType"},
+            {"value": "homarid", "label": "Homarid", "type": "creatureType"},
+            {"value": "homunculus", "label": "Homunculus", "type": "creatureType"},
+            {"value": "horror", "label": "Horror", "type": "creatureType"},
+            {"value": "horse", "label": "Horse", "type": "creatureType"},
+            {"value": "human", "label": "Human", "type": "creatureType"},
+            {"value": "hydra", "label": "Hydra", "type": "creatureType"},
+            {"value": "hyena", "label": "Hyena", "type": "creatureType"},
+            {"value": "illusion", "label": "Illusion", "type": "creatureType"},
+            {"value": "imp", "label": "Imp", "type": "creatureType"},
+            {"value": "incarnation", "label": "Incarnation", "type": "creatureType"},
+            {"value": "inkling", "label": "Inkling", "type": "creatureType"},
+            {"value": "insect", "label": "Insect", "type": "creatureType"},
+            {"value": "jackal", "label": "Jackal", "type": "creatureType"},
+            {"value": "jellyfish", "label": "Jellyfish", "type": "creatureType"},
+            {"value": "juggernaut", "label": "Juggernaut", "type": "creatureType"},
+            {"value": "kavu", "label": "Kavu", "type": "creatureType"},
+            {"value": "kirin", "label": "Kirin", "type": "creatureType"},
+            {"value": "kithkin", "label": "Kithkin", "type": "creatureType"},
+            {"value": "knight", "label": "Knight", "type": "creatureType"},
+            {"value": "kobold", "label": "Kobold", "type": "creatureType"},
+            {"value": "kor", "label": "Kor", "type": "creatureType"},
+            {"value": "kraken", "label": "Kraken", "type": "creatureType"},
+            {"value": "lamia", "label": "Lamia", "type": "creatureType"},
+            {"value": "lammasu", "label": "Lammasu", "type": "creatureType"},
+            {"value": "leech", "label": "Leech", "type": "creatureType"},
+            {"value": "leviathan", "label": "Leviathan", "type": "creatureType"},
+            {"value": "lhurgoyf", "label": "Lhurgoyf", "type": "creatureType"},
+            {"value": "licid", "label": "Licid", "type": "creatureType"},
+            {"value": "lizard", "label": "Lizard", "type": "creatureType"},
+            {"value": "manticore", "label": "Manticore", "type": "creatureType"},
+            {"value": "masticore", "label": "Masticore", "type": "creatureType"},
+            {"value": "mercenary", "label": "Mercenary", "type": "creatureType"},
+            {"value": "merfolk", "label": "Merfolk", "type": "creatureType"},
+            {"value": "metathran", "label": "Metathran", "type": "creatureType"},
+            {"value": "minion", "label": "Minion", "type": "creatureType"},
+            {"value": "minotaur", "label": "Minotaur", "type": "creatureType"},
+            {"value": "mole", "label": "Mole", "type": "creatureType"},
+            {"value": "monger", "label": "Monger", "type": "creatureType"},
+            {"value": "mongoose", "label": "Mongoose", "type": "creatureType"},
+            {"value": "monk", "label": "Monk", "type": "creatureType"},
+            {"value": "monkey", "label": "Monkey", "type": "creatureType"},
+            {"value": "moonfolk", "label": "Moonfolk", "type": "creatureType"},
+            {"value": "mutant", "label": "Mutant", "type": "creatureType"},
+            {"value": "myr", "label": "Myr", "type": "creatureType"},
+            {"value": "mystic", "label": "Mystic", "type": "creatureType"},
+            {"value": "naga", "label": "Naga", "type": "creatureType"},
+            {"value": "nautilus", "label": "Nautilus", "type": "creatureType"},
+            {"value": "nephilim", "label": "Nephilim", "type": "creatureType"},
+            {"value": "nightmare", "label": "Nightmare", "type": "creatureType"},
+            {"value": "nightstalker", "label": "Nightstalker", "type": "creatureType"},
+            {"value": "ninja", "label": "Ninja", "type": "creatureType"},
+            {"value": "noggle", "label": "Noggle", "type": "creatureType"},
+            {"value": "nomad", "label": "Nomad", "type": "creatureType"},
+            {"value": "nymph", "label": "Nymph", "type": "creatureType"},
+            {"value": "octopus", "label": "Octopus", "type": "creatureType"},
+            {"value": "ogre", "label": "Ogre", "type": "creatureType"},
+            {"value": "ooze", "label": "Ooze", "type": "creatureType"},
+            {"value": "orb", "label": "Orb", "type": "creatureType"},
+            {"value": "orc", "label": "Orc", "type": "creatureType"},
+            {"value": "orgg", "label": "Orgg", "type": "creatureType"},
+            {"value": "otter", "label": "Otter", "type": "creatureType"},
+            {"value": "ouphe", "label": "Ouphe", "type": "creatureType"},
+            {"value": "ox", "label": "Ox", "type": "creatureType"},
+            {"value": "oyster", "label": "Oyster", "type": "creatureType"},
+            {"value": "pangolin", "label": "Pangolin", "type": "creatureType"},
+            {"value": "pegasus", "label": "Pegasus", "type": "creatureType"},
+            {"value": "pentavite", "label": "Pentavite", "type": "creatureType"},
+            {"value": "pest", "label": "Pest", "type": "creatureType"},
+            {"value": "phelddagrif", "label": "Phelddagrif", "type": "creatureType"},
+            {"value": "phoenix", "label": "Phoenix", "type": "creatureType"},
+            {"value": "pig", "label": "Pig", "type": "creatureType"},
+            {"value": "pirate", "label": "Pirate", "type": "creatureType"},
+            {"value": "plant", "label": "Plant", "type": "creatureType"},
+            {"value": "praetor", "label": "Praetor", "type": "creatureType"},
+            {"value": "prism", "label": "Prism", "type": "creatureType"},
+            {"value": "processor", "label": "Processor", "type": "creatureType"},
+            {"value": "rabbit", "label": "Rabbit", "type": "creatureType"},
+            {"value": "raccoon", "label": "Raccoon", "type": "creatureType"},
+            {"value": "ranger", "label": "Ranger", "type": "creatureType"},
+            {"value": "rat", "label": "Rat", "type": "creatureType"},
+            {"value": "rebel", "label": "Rebel", "type": "creatureType"},
+            {"value": "reflection", "label": "Reflection", "type": "creatureType"},
+            {"value": "rhino", "label": "Rhino", "type": "creatureType"},
+            {"value": "rigger", "label": "Rigger", "type": "creatureType"},
+            {"value": "rogue", "label": "Rogue", "type": "creatureType"},
+            {"value": "salamander", "label": "Salamander", "type": "creatureType"},
+            {"value": "samurai", "label": "Samurai", "type": "creatureType"},
+            {"value": "sand", "label": "Sand", "type": "creatureType"},
+            {"value": "saproling", "label": "Saproling", "type": "creatureType"},
+            {"value": "satyr", "label": "Satyr", "type": "creatureType"},
+            {"value": "scarecrow", "label": "Scarecrow", "type": "creatureType"},
+            {"value": "scion", "label": "Scion", "type": "creatureType"},
+            {"value": "scorpion", "label": "Scorpion", "type": "creatureType"},
+            {"value": "scout", "label": "Scout", "type": "creatureType"},
+            {"value": "sculpture", "label": "Sculpture", "type": "creatureType"},
+            {"value": "serf", "label": "Serf", "type": "creatureType"},
+            {"value": "serpent", "label": "Serpent", "type": "creatureType"},
+            {"value": "servo", "label": "Servo", "type": "creatureType"},
+            {"value": "shade", "label": "Shade", "type": "creatureType"},
+            {"value": "shaman", "label": "Shaman", "type": "creatureType"},
+            {"value": "shark", "label": "Shark", "type": "creatureType"},
+            {"value": "sheep", "label": "Sheep", "type": "creatureType"},
+            {"value": "shifter", "label": "Shifter", "type": "creatureType"},
+            {"value": "ship", "label": "Ship", "type": "creatureType"},
+            {"value": "sire", "label": "Sire", "type": "creatureType"},
+            {"value": "skeleton", "label": "Skeleton", "type": "creatureType"},
+            {"value": "slith", "label": "Slith", "type": "creatureType"},
+            {"value": "sliver", "label": "Sliver", "type": "creatureType"},
+            {"value": "slug", "label": "Slug", "type": "creatureType"},
+            {"value": "snake", "label": "Snake", "type": "creatureType"},
+            {"value": "soldier", "label": "Soldier", "type": "creatureType"},
+            {"value": "soltari", "label": "Soltari", "type": "creatureType"},
+            {"value": "spawn", "label": "Spawn", "type": "creatureType"},
+            {"value": "specter", "label": "Specter", "type": "creatureType"},
+            {"value": "spellshaper", "label": "Spellshaper", "type": "creatureType"},
+            {"value": "sphinx", "label": "Sphinx", "type": "creatureType"},
+            {"value": "spider", "label": "Spider", "type": "creatureType"},
+            {"value": "spike", "label": "Spike", "type": "creatureType"},
+            {"value": "spirit", "label": "Spirit", "type": "creatureType"},
+            {"value": "splinter", "label": "Splinter", "type": "creatureType"},
+            {"value": "sponge", "label": "Sponge", "type": "creatureType"},
+            {"value": "squid", "label": "Squid", "type": "creatureType"},
+            {"value": "squirrel", "label": "Squirrel", "type": "creatureType"},
+            {"value": "starfish", "label": "Starfish", "type": "creatureType"},
+            {"value": "surrakar", "label": "Surrakar", "type": "creatureType"},
+            {"value": "survivor", "label": "Survivor", "type": "creatureType"},
+            {"value": "tentacle", "label": "Tentacle", "type": "creatureType"},
+            {"value": "tetravite", "label": "Tetravite", "type": "creatureType"},
+            {"value": "thalakos", "label": "Thalakos", "type": "creatureType"},
+            {"value": "thopter", "label": "Thopter", "type": "creatureType"},
+            {"value": "thrull", "label": "Thrull", "type": "creatureType"},
+            {"value": "tiefling", "label": "Tiefling", "type": "creatureType"},
+            {"value": "treefolk", "label": "Treefolk", "type": "creatureType"},
+            {"value": "trilobite", "label": "Trilobite", "type": "creatureType"},
+            {"value": "triskelavite", "label": "Triskelavite", "type": "creatureType"},
+            {"value": "troll", "label": "Troll", "type": "creatureType"},
+            {"value": "turtle", "label": "Turtle", "type": "creatureType"},
+            {"value": "unicorn", "label": "Unicorn", "type": "creatureType"},
+            {"value": "vampire", "label": "Vampire", "type": "creatureType"},
+            {"value": "vedalken", "label": "Vedalken", "type": "creatureType"},
+            {"value": "viashino", "label": "Viashino", "type": "creatureType"},
+            {"value": "volver", "label": "Volver", "type": "creatureType"},
+            {"value": "wall", "label": "Wall", "type": "creatureType"},
+            {"value": "warlock", "label": "Warlock", "type": "creatureType"},
+            {"value": "warrior", "label": "Warrior", "type": "creatureType"},
+            {"value": "weird", "label": "Weird", "type": "creatureType"},
+            {"value": "werewolf", "label": "Werewolf", "type": "creatureType"},
+            {"value": "whale", "label": "Whale", "type": "creatureType"},
+            {"value": "wizard", "label": "Wizard", "type": "creatureType"},
+            {"value": "wolf", "label": "Wolf", "type": "creatureType"},
+            {"value": "wolverine", "label": "Wolverine", "type": "creatureType"},
+            {"value": "wombat", "label": "Wombat", "type": "creatureType"},
+            {"value": "worm", "label": "Worm", "type": "creatureType"},
+            {"value": "wraith", "label": "Wraith", "type": "creatureType"},
+            {"value": "wurm", "label": "Wurm", "type": "creatureType"},
+            {"value": "yeti", "label": "Yeti", "type": "creatureType"},
+            {"value": "zombie", "label": "Zombie", "type": "creatureType"},
+            {"value": "zubera", "label": "Zubera", "type": "creatureType"}
+        ],
+        "artifactTypes": [
+            {
+                "value": "equipment",
+                "label": "Equipment",
+                "type": "artifactType"
+            },
+            {
+                "value": "vehicle",
+                "label": "Vehicle",
+                "type": "artifactType"
+            },
+            {
+                "value": "clue",
+                "label": "Clue",
+                "type": "artifactType"
+            },
+            {
+                "value": "fortification",
+                "label": "Fortification",
+                "type": "artifactType"
+            },
+            {
+                "value": "treasure",
+                "label": "Treasure",
+                "type": "artifactType"
+            }
+        ],
+        "enchantmentTypes": [
+            {
+                "value": "aura",
+                "label": "Aura",
+                "type": "enchantmentType"
+            },
+            {
+                "value": "curse",
+                "label": "Curse",
+                "type": "enchantmentType"
+            },
+            {
+                "value": "shrine",
+                "label": "Shrine",
+                "type": "enchantmentType"
+            },
+            {
+                "value": "saga",
+                "label": "Saga",
+                "type": "enchantmentType"
+            }
+        ],
+        "landTypes": [
+            {
+                "value": "desert",
+                "label": "Desert",
+                "type": "landType"
+            },
+            {
+                "value": "gate",
+                "label": "Gate",
+                "type": "landType"
+            },
+            {
+                "value": "locus",
+                "label": "Locus",
+                "type": "landType"
+            },
+            {
+                "value": "mine",
+                "label": "Mine",
+                "type": "landType"
+            },
+            {
+                "value": "power-plant",
+                "label": "Power-Plant",
+                "type": "landType"
+            },
+            {
+                "value": "tower",
+                "label": "Tower",
+                "type": "landType"
+            },
+            {
+                "value": "plains",
+                "label": "Plains",
+                "type": "landType"
+            },
+            {
+                "value": "island",
+                "label": "Island",
+                "type": "landType"
+            },
+            {
+                "value": "swamp",
+                "label": "Swamp",
+                "type": "landType"
+            },
+            {
+                "value": "mountain",
+                "label": "Mountain",
+                "type": "landType"
+            },
+            {
+                "value": "forest",
+                "label": "Forest",
+                "type": "landType"
+            },
+            {
+                "value": "urza's",
+                "label": "Urza's",
+                "type": "landType"
+            }
+        ],
+        "spellTypes": [
+            {
+                "value": "arcane",
+                "label": "Arcane",
+                "type": "spellType"
+            },
+            {
+                "value": "trap",
+                "label": "Trap",
+                "type": "spellType"
+            }
+        ],
+        "planeswalkerTypes": [
+            {
+                "value": "ajani",
+                "label": "Ajani",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "angrath",
+                "label": "Angrath",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "arlinn",
+                "label": "Arlinn",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "ashiok",
+                "label": "Ashiok",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "bolas",
+                "label": "Bolas",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "chandra",
+                "label": "Chandra",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "domri",
+                "label": "Domri",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "dovin",
+                "label": "Dovin",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "elspeth",
+                "label": "Elspeth",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "garruk",
+                "label": "Garruk",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "gideon",
+                "label": "Gideon",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "grist",
+                "label": "Grist",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "huatli",
+                "label": "Huatli",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "jace",
+                "label": "Jace",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "jaya",
+                "label": "Jaya",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "karn",
+                "label": "Karn",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "kaya",
+                "label": "Kaya",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "kiora",
+                "label": "Kiora",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "koth",
+                "label": "Koth",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "liliana",
+                "label": "Liliana",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "nahiri",
+                "label": "Nahiri",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "narset",
+                "label": "Narset",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "nissa",
+                "label": "Nissa",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "nixilis",
+                "label": "Nixilis",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "ral",
+                "label": "Ral",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "rowan",
+                "label": "Rowan",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "saheeli",
+                "label": "Saheeli",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "samut",
+                "label": "Samut",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "sarkhan",
+                "label": "Sarkhan",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "sorin",
+                "label": "Sorin",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "tamiyo",
+                "label": "Tamiyo",
+                "type": "planeswalkerType"
+                },
+                {
+                "value": "teferi",
+                "label": "Teferi",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "tezzeret",
+                "label": "Tezzeret",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "tibalt",
+                "label": "Tibalt",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "ugin",
+                "label": "Ugin",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "venser",
+                "label": "Venser",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "vivien",
+                "label": "Vivien",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "vraska",
+                "label": "Vraska",
+                "type": "planeswalkerType"
+            },
+            {
+                "value": "xenagos",
+                "label": "Xenagos",
+                "type": "planeswalkerType"
+            }
+        ]
+    }
+}
