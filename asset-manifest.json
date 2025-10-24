@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/preWARmodern/static/css/main.6cb06cba.css",
-    "main.js": "/preWARmodern/static/js/main.8751dfb8.js",
+    "main.css": "/preWARmodern/static/css/main.516ca452.css",
+    "main.js": "/preWARmodern/static/js/main.3ab947fd.js",
     "static/media/mana.svg?v=1.18.0": "/preWARmodern/static/media/mana.8d49ba827e486c5144ae.svg",
     "static/media/keyrune.svg?v=3.17.0": "/preWARmodern/static/media/keyrune.fdb97db366665e6a0940.svg",
     "static/media/mana.eot": "/preWARmodern/static/media/mana.d085d859f4ca52b68033.eot",
@@ -16,11 +16,11 @@
     "static/media/mplantin.ttf?v=1.18.0": "/preWARmodern/static/media/mplantin.9ccce3a24c7c9894b58e.ttf",
     "static/media/mplantin.woff?v=1.18.0": "/preWARmodern/static/media/mplantin.f511062c132e4b72f9b8.woff",
     "index.html": "/preWARmodern/index.html",
-    "main.6cb06cba.css.map": "/preWARmodern/static/css/main.6cb06cba.css.map",
-    "main.8751dfb8.js.map": "/preWARmodern/static/js/main.8751dfb8.js.map"
+    "main.516ca452.css.map": "/preWARmodern/static/css/main.516ca452.css.map",
+    "main.3ab947fd.js.map": "/preWARmodern/static/js/main.3ab947fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cb06cba.css",
-    "static/js/main.8751dfb8.js"
+    "static/css/main.516ca452.css",
+    "static/js/main.3ab947fd.js"
   ]
 }
