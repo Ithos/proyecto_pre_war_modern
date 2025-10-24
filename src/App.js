@@ -7,6 +7,7 @@ import Cards from "./Components/Cards";
 import Decks from "./Components/Decks";
 import Footer from "./Components/Footer";
 import ScrollToAnchor from "./Hooks/ScrollToAnchor";
+import NotFound from './Components/NotFound';
 
 function App() {
   const dataContext = useContext(DataContext);
@@ -67,6 +68,7 @@ function App() {
             scrollPosition={dataContext.scrollPosition}
           />
         } />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>

@@ -17,7 +17,7 @@ const CARDS = "Cards"
 const DECKS = "Decks"
 const CARDS_LINK = "/cards"
 const DECKS_LINK = "/decks"
-const HOME_LINK = "/"
+const HOME_LINK = "/preWARmodern"
 const CARD_WIDTH = 223;
 const CARD_HEIGHT = 310;
 

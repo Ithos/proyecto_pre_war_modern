@@ -859,6 +859,26 @@ body {
   transform: translate(10px, 10px);
 }
 
+.PageNotFound {
+  width: 100%;
+  min-height: var(--CARDS_MIN_HEIGHT);
+  background-color: var(--PRIMARY_COLOR);
+  padding: var(--HEADER_TITLE_HEIGHT);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PageNotFound h1{
+  font-size: var(--TITLE_FONT_SIZE);
+  text-shadow: var(--TEXT_SHADOW);
+}
+
+.PageNotFound p{
+  font-size: var(--MID_TITLE_FONT_SIZE);
+  text-shadow: var(--TEXT_SHADOW);
+}
 
 @media  screen and (max-width: 1500px)
 {
