@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/preWARmodern/static/css/main.516ca452.css",
-    "main.js": "/preWARmodern/static/js/main.3ab947fd.js",
-    "static/media/mana.svg?v=1.18.0": "/preWARmodern/static/media/mana.8d49ba827e486c5144ae.svg",
-    "static/media/keyrune.svg?v=3.17.0": "/preWARmodern/static/media/keyrune.fdb97db366665e6a0940.svg",
-    "static/media/mana.eot": "/preWARmodern/static/media/mana.d085d859f4ca52b68033.eot",
-    "static/media/mana.woff?v=1.18.0": "/preWARmodern/static/media/mana.3ddf42cc51e937cc72d7.woff",
-    "static/media/mana.ttf?v=1.18.0": "/preWARmodern/static/media/mana.e5466678f19fe67b7590.ttf",
-    "static/media/keyrune.eot": "/preWARmodern/static/media/keyrune.09fba1653fba57c002b7.eot",
-    "static/media/keyrune.woff?v=3.17.0": "/preWARmodern/static/media/keyrune.390c201c7e103486d439.woff",
-    "static/media/keyrune.ttf?v=3.17.0": "/preWARmodern/static/media/keyrune.6b7b4534e80492be736b.ttf",
-    "static/media/mplantin.svg?v=1.18.0": "/preWARmodern/static/media/mplantin.83d7d29e550b1e99d824.svg",
-    "static/media/keyrune.woff2?v=3.17.0": "/preWARmodern/static/media/keyrune.c5ce51ca50556e13bea2.woff2",
-    "static/media/mplantin.eot": "/preWARmodern/static/media/mplantin.5b4cd76298c9d024c16d.eot",
-    "static/media/mplantin.ttf?v=1.18.0": "/preWARmodern/static/media/mplantin.9ccce3a24c7c9894b58e.ttf",
-    "static/media/mplantin.woff?v=1.18.0": "/preWARmodern/static/media/mplantin.f511062c132e4b72f9b8.woff",
-    "index.html": "/preWARmodern/index.html",
-    "main.516ca452.css.map": "/preWARmodern/static/css/main.516ca452.css.map",
-    "main.3ab947fd.js.map": "/preWARmodern/static/js/main.3ab947fd.js.map"
+    "main.css": "/proyecto_pre_war_modern/static/css/main.5d3c351c.css",
+    "main.js": "/proyecto_pre_war_modern/static/js/main.ff6b9264.js",
+    "static/media/mana.svg?v=1.18.0": "/proyecto_pre_war_modern/static/media/mana.8d49ba827e486c5144ae.svg",
+    "static/media/keyrune.svg?v=3.17.0": "/proyecto_pre_war_modern/static/media/keyrune.fdb97db366665e6a0940.svg",
+    "static/media/mana.eot": "/proyecto_pre_war_modern/static/media/mana.d085d859f4ca52b68033.eot",
+    "static/media/mana.woff?v=1.18.0": "/proyecto_pre_war_modern/static/media/mana.3ddf42cc51e937cc72d7.woff",
+    "static/media/mana.ttf?v=1.18.0": "/proyecto_pre_war_modern/static/media/mana.e5466678f19fe67b7590.ttf",
+    "static/media/keyrune.eot": "/proyecto_pre_war_modern/static/media/keyrune.09fba1653fba57c002b7.eot",
+    "static/media/keyrune.woff?v=3.17.0": "/proyecto_pre_war_modern/static/media/keyrune.390c201c7e103486d439.woff",
+    "static/media/keyrune.ttf?v=3.17.0": "/proyecto_pre_war_modern/static/media/keyrune.6b7b4534e80492be736b.ttf",
+    "static/media/mplantin.svg?v=1.18.0": "/proyecto_pre_war_modern/static/media/mplantin.83d7d29e550b1e99d824.svg",
+    "static/media/keyrune.woff2?v=3.17.0": "/proyecto_pre_war_modern/static/media/keyrune.c5ce51ca50556e13bea2.woff2",
+    "static/media/mplantin.eot": "/proyecto_pre_war_modern/static/media/mplantin.5b4cd76298c9d024c16d.eot",
+    "static/media/mplantin.ttf?v=1.18.0": "/proyecto_pre_war_modern/static/media/mplantin.9ccce3a24c7c9894b58e.ttf",
+    "static/media/mplantin.woff?v=1.18.0": "/proyecto_pre_war_modern/static/media/mplantin.f511062c132e4b72f9b8.woff",
+    "index.html": "/proyecto_pre_war_modern/index.html",
+    "main.5d3c351c.css.map": "/proyecto_pre_war_modern/static/css/main.5d3c351c.css.map",
+    "main.ff6b9264.js.map": "/proyecto_pre_war_modern/static/js/main.ff6b9264.js.map"
   },
   "entrypoints": [
-    "static/css/main.516ca452.css",
-    "static/js/main.3ab947fd.js"
+    "static/css/main.5d3c351c.css",
+    "static/js/main.ff6b9264.js"
   ]
 }
