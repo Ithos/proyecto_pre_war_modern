@@ -49,7 +49,7 @@ const SearchResults = ({ cardSearchObject, bannedCards, cardsPerPage, scrollPosi
                     <button className={ currentPage < maxPage ? "button lastPage" : "disabled lastPage" } onClick={() => { if (currentPage < maxPage) setCurrentPage(maxPage) }} title="Last Page"> &raquo;</button>
                 </section>
             </section>
-            { scrollPosition > 3 && <button className="scrollToTop" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} title="Scroll to Top">&#x2BC5;</button> }
+            { scrollPosition > 3 && <button className="ms ms-untap scrollToTop" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} title="Scroll to Top"></button> }
             <section className="cardsContainer">
             { 
                 !isLoading && filteredCards.map( (card) => (
