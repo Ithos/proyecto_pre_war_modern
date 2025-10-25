@@ -43,13 +43,13 @@ const SearchResults = ({ cardSearchObject, bannedCards, cardsPerPage, scrollPosi
             <section className="resultsHeader">
                 <span> Page {currentPage} of {maxPage} &#9148; {maxPage > 1 ? cardSearchObject.total_cards : filteredCards.length - filteredCards.filter((card) => bannedCards.includes(card.name)).length} results found</span>
                 <section className="resultsNavigation">
-                    <button className= { currentPage > 1 ? "button firstPage" : "disabled firstPage" } onClick={() => { if (currentPage > 1) setCurrentPage(1) }} title="First Page"> &#11164;&#11164;</button>
-                    <button className={ currentPage > 1 ? "button prevPage" : "disabled prevPage" } onClick={() => { if (currentPage > 1) setCurrentPage(currentPage - 1) }} title="Previous Page"> &#11164; Prev</button>
-                    <button className={ currentPage < maxPage ? "button nextPage" : "disabled nextPage" } onClick={() => { if (currentPage < maxPage) setCurrentPage(currentPage + 1) }} title="Next Page">Next &#11166;</button>
-                    <button className={ currentPage < maxPage ? "button lastPage" : "disabled lastPage" } onClick={() => { if (currentPage < maxPage) setCurrentPage(maxPage) }} title="Last Page"> &#11166;&#11166;</button>
+                    <button className= { currentPage > 1 ? "button firstPage" : "disabled firstPage" } onClick={() => { if (currentPage > 1) setCurrentPage(1) }} title="First Page"> &laquo;</button>
+                    <button className={ currentPage > 1 ? "button prevPage" : "disabled prevPage" } onClick={() => { if (currentPage > 1) setCurrentPage(currentPage - 1) }} title="Previous Page"> &lsaquo; Prev</button>
+                    <button className={ currentPage < maxPage ? "button nextPage" : "disabled nextPage" } onClick={() => { if (currentPage < maxPage) setCurrentPage(currentPage + 1) }} title="Next Page">Next &rsaquo;</button>
+                    <button className={ currentPage < maxPage ? "button lastPage" : "disabled lastPage" } onClick={() => { if (currentPage < maxPage) setCurrentPage(maxPage) }} title="Last Page"> &raquo;</button>
                 </section>
             </section>
-            { scrollPosition > 3 && <button className="scrollToTop" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} title="Scroll to Top">&#11165;</button> }
+            { scrollPosition > 3 && <button className="scrollToTop" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} title="Scroll to Top">&#x2BC5;</button> }
             <section className="cardsContainer">
             { 
                 !isLoading && filteredCards.map( (card) => (
@@ -73,10 +73,10 @@ const SearchResults = ({ cardSearchObject, bannedCards, cardsPerPage, scrollPosi
                 <section className="resultsHeader">
                 <span> Page {currentPage} of {maxPage} &#9148; {maxPage > 1 ? cardSearchObject.total_cards : filteredCards.length - filteredCards.filter((card) => bannedCards.includes(card.name)).length} results found</span>
                 <section className="resultsNavigation">
-                    <button className= { currentPage > 1 ? "button firstPage" : "disabled firstPage" } onClick={() => { if (currentPage > 1) setCurrentPage(1) } } title="First Page"> &#11164;&#11164;</button>
-                    <button className={ currentPage > 1 ? "button prevPage" : "disabled prevPage" } onClick={() => { if (currentPage > 1) setCurrentPage(currentPage - 1) }} title="Previous Page"> &#11164; Prev</button>
-                    <button className={ currentPage < maxPage ? "button nextPage" : "disabled nextPage" } onClick={() => { if (currentPage < maxPage) setCurrentPage(currentPage + 1) }} title="Next Page">Next &#11166;</button>
-                    <button className={ currentPage < maxPage ? "button lastPage" : "disabled lastPage" } onClick={() => { if (currentPage < maxPage) setCurrentPage(maxPage) }} title="Last Page"> &#11166;&#11166;</button>
+                    <button className= { currentPage > 1 ? "button firstPage" : "disabled firstPage" } onClick={() => { if (currentPage > 1) setCurrentPage(1) } } title="First Page"> &laquo;</button>
+                    <button className={ currentPage > 1 ? "button prevPage" : "disabled prevPage" } onClick={() => { if (currentPage > 1) setCurrentPage(currentPage - 1) }} title="Previous Page"> &lsaquo; Prev</button>
+                    <button className={ currentPage < maxPage ? "button nextPage" : "disabled nextPage" } onClick={() => { if (currentPage < maxPage) setCurrentPage(currentPage + 1) }} title="Next Page">Next &rsaquo;</button>
+                    <button className={ currentPage < maxPage ? "button lastPage" : "disabled lastPage" } onClick={() => { if (currentPage < maxPage) setCurrentPage(maxPage) }} title="Last Page"> &raquo;</button>
                 </section>
             </section>
         </section>

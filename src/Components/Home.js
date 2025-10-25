@@ -20,12 +20,12 @@ const Home = ({rules, legalSets, banlist, decksLink, homeLink, width, smallScree
                     This format is conceived as a closed format and is intended to have minimal changes in order to deliver a promise of "build your deck once and play it forever".
                 </p>
                 <p> 
-                    You can find some suggestions for prefire decks <Link to={decksLink}>here</Link>.
+                    You can find some suggestions for preWAR decks <Link to={decksLink}>here</Link>.
                 </p>
             </section>
             <section id={rules} className='Home-rules'>
                 <h1>Rules</h1>
-                <p>PreWar Modern is played with contemporary Magic: the Gathering in-game rules, also all reprints of legal cards are allowed. The format has its own ban list as you can see <span> </span>
+                <p>PreWAR Modern is played with contemporary Magic: the Gathering in-game rules, also all reprints of legal cards are allowed. The format has its own ban list as you can see <span> </span>
                     <Link to={`${homeLink}#${banlist}`}>here</Link>.
                 </p>
             </section>

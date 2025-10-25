@@ -121,7 +121,7 @@ const Decks = ({deckLists, tipPosition, narrowScreenWidth, width, scrollPosition
                     </section>
                 ) 
             )}
-            { scrollPosition > 3 && <button className="scrollToTop" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} title="Scroll to Top">&#11165;</button> }
+            { scrollPosition > 3 && <button className="scrollToTop" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} title="Scroll to Top">&#x2BC5;</button> }
             </section>
         </main>
     );
