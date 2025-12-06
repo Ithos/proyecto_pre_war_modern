@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/proyecto_pre_war_modern/static/css/main.5d3c351c.css",
-    "main.js": "/proyecto_pre_war_modern/static/js/main.b372e8de.js",
+    "main.js": "/proyecto_pre_war_modern/static/js/main.b0779bbc.js",
     "static/media/mana.svg?v=1.18.0": "/proyecto_pre_war_modern/static/media/mana.8d49ba827e486c5144ae.svg",
     "static/media/keyrune.svg?v=3.17.0": "/proyecto_pre_war_modern/static/media/keyrune.fdb97db366665e6a0940.svg",
     "static/media/mana.eot": "/proyecto_pre_war_modern/static/media/mana.d085d859f4ca52b68033.eot",
@@ -17,10 +17,10 @@
     "static/media/mplantin.woff?v=1.18.0": "/proyecto_pre_war_modern/static/media/mplantin.f511062c132e4b72f9b8.woff",
     "index.html": "/proyecto_pre_war_modern/index.html",
     "main.5d3c351c.css.map": "/proyecto_pre_war_modern/static/css/main.5d3c351c.css.map",
-    "main.b372e8de.js.map": "/proyecto_pre_war_modern/static/js/main.b372e8de.js.map"
+    "main.b0779bbc.js.map": "/proyecto_pre_war_modern/static/js/main.b0779bbc.js.map"
   },
   "entrypoints": [
     "static/css/main.5d3c351c.css",
-    "static/js/main.b372e8de.js"
+    "static/js/main.b0779bbc.js"
   ]
 }
