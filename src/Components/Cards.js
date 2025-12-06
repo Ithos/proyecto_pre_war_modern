@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useEffect } from "react";
 import Select, { components } from "react-select";
 import axios from "axios";
 import CardSearchResults from "./SearchResults";
@@ -11,7 +12,6 @@ const Cards = ({ scrollPosition, bannedCards, setlist, cardTypes, supertypes, cr
     const URL_AT_MOST = "%3C%3D";
     const BANNED_CARDS = bannedCards.map(card => card.name);
     const BASE_URL = "https://api.scryfall.com/cards/search?q=%28game%3Apaper%29";
-    const FULL_SETS_URL = "+%28set%3Arna+OR+set%3Agrn+OR+set%3Adom+OR+set%3Arix+OR+set%3Axln+OR+set%3Ahou+OR+set%3Aakh+OR+set%3Aaer+OR+set%3Akld+OR+set%3Aemn+OR+set%3Asoi+OR+set%3Aogw+OR+set%3Abfz+OR+set%3Adtk+OR+set%3Afrf+OR+set%3Aktk+OR+set%3Ajou+OR+set%3Abng+OR+set%3Aths+OR+set%3Adgm+OR+set%3Agtc+OR+set%3Artr+OR+set%3Aavr+OR+set%3Adka+OR+set%3Aisd+OR+set%3Anph+OR+set%3Ambs+OR+set%3Asom+OR+set%3Aroe+OR+set%3Awwk+OR+set%3Azen+OR+set%3Aarb+OR+set%3Acon+OR+set%3Aeve+OR+set%3Ashm+OR+set%3Amor+OR+set%3Alrw+OR+set%3Afut+OR+set%3Aplc+OR+set%3Atsp+OR+set%3Atsb+OR+set%3Acsp+OR+set%3Adis+OR+set%3Agpt+OR+set%3Arav+OR+set%3Asok+OR+set%3Abok+OR+set%3Achk+OR+set%3A5dn+OR+set%3Adst+OR+set%3Amrd+OR+set%3Am19+OR+set%3Aori+OR+set%3Am15+OR+set%3Am14+OR+set%3Am13+OR+set%3Am12+OR+set%3Am11+OR+set%3Am10+OR+set%3A10e+OR+set%3A9ed+OR+set%3A8ed%29+";
     const URL_ADD_OR_CONDITION = "+OR+";
     const URL_OPEN_PARENTHESIS = "%28";
     const URL_CLOSE_PARENTHESIS = "%29";
@@ -49,7 +49,7 @@ const Cards = ({ scrollPosition, bannedCards, setlist, cardTypes, supertypes, cr
     const [isLoading, setIsLoading] = useState(false);
     const [attemptedSearch, setAttemptedSearch] = useState(false);
     const [error, setError] = useState(null);
-    
+    const [setFilter, setSetFilter] = useState("");    
 
     const setsOptions = [
         ...setlist.map(set => ({
@@ -66,6 +66,13 @@ const Cards = ({ scrollPosition, bannedCards, setlist, cardTypes, supertypes, cr
             {props.data.label}
         </Option>
     );
+
+    useEffect(() => {
+        if(setlist)
+            setSetFilter(
+            URL_OPEN_PARENTHESIS +  setlist.map( s => `${URL_ADD_SET}${s.code}`).join(URL_ADD_OR_CONDITION) + URL_CLOSE_PARENTHESIS
+        );
+    }, [setlist]);
 
 const groupedOptions = [
         {
@@ -340,7 +347,7 @@ const groupedOptions = [
 
                         scryfallSearch += cardManaCostString;
 
-                        let cardSetsString = FULL_SETS_URL;
+                        let cardSetsString = setFilter;
                         if (cardSets !== null && cardSets.length > 0)
                          cardSetsString = URL_ADD_CONDITION + URL_OPEN_PARENTHESIS +  cardSets.map( s => `${URL_ADD_SET}${s.value}`).join(URL_ADD_OR_CONDITION) + URL_CLOSE_PARENTHESIS;
 
